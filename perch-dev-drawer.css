@@ -7,6 +7,7 @@ body .perch-debug {
   margin: 0;
   background-color: white;
   border-top: 2px solid #D2D2D2;
+  z-index: 4000;
   transition: all .3s ease-in-out;
 }
 body .perch-debug:before {

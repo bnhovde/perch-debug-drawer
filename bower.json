@@ -1,7 +1,7 @@
 {
   "name": "perch-dev-drawer",
   "main": [ "perch-dev-drawer.js", "perch-dev-drawer.css" ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     { "name": "Bard N. Hovde", "email": "bnhovde@gmail.com", "homepage": "http://github.com/bnhovde" }
   ],
