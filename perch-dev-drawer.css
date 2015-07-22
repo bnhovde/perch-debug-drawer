@@ -1,0 +1,36 @@
+body .perch-debug {
+  display: block;
+  position: fixed;
+  top: 100%;
+  width: 100%;
+  bottom: 0;
+  margin: 0;
+  background-color: white;
+  border-top: 2px solid #D2D2D2;
+  transition: all .3s ease-in-out;
+}
+body .perch-debug:before {
+  content: "DEBUG";
+  position: absolute;
+  top: -45px;
+  left: 9px;
+  width: 60px;
+  height: 33px;
+  background-color: #D2D2D2;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+body .perch-debug tbody {
+  display: block;
+  padding: 2%;
+  overflow: scroll;
+  height: 100%;
+}
+body .perch-debug--open {
+  top: 50%;
+}
+body .perch-debug--open:before {
+  top: -34px;
+}

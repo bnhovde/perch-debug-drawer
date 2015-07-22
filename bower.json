@@ -1,0 +1,23 @@
+{
+  "name": "perch-dev-drawer",
+  "main": [ "perch-dev-drawer.js", "perch-dev-drawer.css" ],
+  "version": "1.0.0",
+  "authors": [
+    { "name": "Bard N. Hovde", "email": "bnhovde@gmail.com", "homepage": "http://github.com/bnhovde" }
+  ],
+  "description": "When perch debug is enabled it will be hidden inside a drawer that can be toggled.",
+  "keywords": [
+    "perch",
+    "cms",
+    "perchcms",
+    "debug"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
